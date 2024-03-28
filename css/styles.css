@@ -1,8 +1,9 @@
-
 nav {
-    background-color: rgb(27, 27, 27);
+  background-color: rgb(27, 27, 27);
 }
 
-.menu > a {
-    font-family: "Permanent Marker", cursive;
+.menu > a,
+.drop-content > a,
+.drop-holder > button {
+  font-family: "Permanent Marker", cursive;
 }
