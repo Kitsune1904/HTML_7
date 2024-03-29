@@ -206,3 +206,19 @@ form > .holder {
   background-color: beige;
 }
 
+.button > input {
+  padding: 10px 50px;
+  border-radius: 8px;
+  background: rgb(251,210,63);
+  background: radial-gradient(circle, rgba(251,210,63,1) 0%, rgba(173,136,38,1) 100%);  font-size: 1.1rem;
+}
+
+.button > input:hover {
+  cursor: pointer;
+  background: rgb(190,152,14);
+  background: radial-gradient(circle, rgba(190,152,14,1) 0%, rgba(122,96,25,1) 100%);  color: beige;
+}
+
+.adiition > img {
+  filter: drop-shadow(10px 10px 5px #000000);
+}
