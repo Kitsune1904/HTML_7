@@ -139,3 +139,21 @@ li a,
   width: 100%;
 }
 
+.back {
+  position: fixed;
+  z-index: 200;
+  left: -15px;
+  top: 73px;
+}
+
+.back > img {
+  width: 50%;
+}
+
+footer {
+  justify-content: stretch;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
