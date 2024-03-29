@@ -10,14 +10,6 @@ nav {
   z-index: 100;
 }
 
-.logo {
-  width: 20%;
-}
-
-.menu {
-  width: 80%;
-}
-
 .logo,
 .menu {
   display: flex;
@@ -26,7 +18,6 @@ nav {
 
 .logo > a > img {
   width: 100px;
-  height: 100%;
 }
 
 .menu a {
@@ -56,11 +47,13 @@ li a,
 .menu a:hover,
 .dropdown-content > li > a {
   background-color: #bda87b;
+  transition: 1s;
 }
 
 .dropdown-content > li > a:hover,
 .details > a:hover {
   background-color: #b99c5c;
+  transition: 1s;
 }
 
 .dropdown-content {
@@ -103,7 +96,7 @@ li a,
 
 .info-holder {
   border: 3px solid #c7b48c;
-  padding: 20px;
+  padding: 3%;
 }
 
 .info-holder > span {
@@ -164,14 +157,22 @@ footer {
   height: 100vh;
 }
 
+main > form,
+.button > input {
+  background: rgb(251, 210, 63);
+  background: radial-gradient(
+    circle,
+    rgba(251, 210, 63, 1) 0%,
+    rgba(173, 136, 38, 1) 100%
+  );
+}
+
 main > form {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 600px;
   margin: 200px auto 0 auto;
-  background: rgb(251,210,63);
-  background: radial-gradient(circle, rgba(251,210,63,1) 0%, rgba(173,136,38,1) 100%);
   padding: 20px;
   border-radius: 8px;
 }
@@ -209,14 +210,19 @@ form > .holder {
 .button > input {
   padding: 10px 50px;
   border-radius: 8px;
-  background: rgb(251,210,63);
-  background: radial-gradient(circle, rgba(251,210,63,1) 0%, rgba(173,136,38,1) 100%);  font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .button > input:hover {
   cursor: pointer;
-  background: rgb(190,152,14);
-  background: radial-gradient(circle, rgba(190,152,14,1) 0%, rgba(122,96,25,1) 100%);  color: beige;
+  background: rgb(190, 152, 14);
+  background: radial-gradient(
+    circle,
+    rgba(190, 152, 14, 1) 0%,
+    rgba(122, 96, 25, 1) 100%
+  );
+  color: beige;
+  transition: 1s;
 }
 
 .adiition > img {
