@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discover China</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -18,40 +16,71 @@
       <div class="logo">
         <a href="#"><img src="./images/logo-china.png" alt="company logo" /></a>
       </div>
-      <div class="menu">
-        <a href="#">Home page</a>
-        <a href="#">Chinese history</a>
-        <a href="#">China news</a>
-        <div class="drop-holder">
-          <button class="drop-btn">Show more</button>
-          <div class="drop-content">
-            <a href="#">About us</a>
-            <a href="#">Contact</a>
-            <a href="#">Testimonials</a>
-          </div>
-        </div>
+      <div class="menu-holder">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="./additional/contact.html">Contacts</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">More</a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">History</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </nav>
+    <a href="#start" class="back"
+      ><img
+        src="./images/chinese-golden-dragon.png"
+        alt="chinese golden dragon"
+    /></a>
     <main>
       <div class="img-holder">
         <img
           src="./images/cover-chinas-heartland.jpg"
           alt="cover image with chinese mythology animal"
+          id="start"
         />
       </div>
       <div class="discription">
         <section class="intro">
           <h2>CHINA & BURMA: STYLE, SUBSTANCE & SPIRIT</h2>
           <p>
-            Neighbouring China and Burma, physically close yet culturally
-            lightyears apart. This tailor-made itinerary will allow you to
-            witness the evolution of these two rapidly evolving nations, with
-            their substantial cultural identities which are becoming more
-            prominent in the wider world. Contrast the fast paced day to day
-            activities of the emerging superpower of China, with the rusticity
-            and peaceful way of life of spiritual Burma. Your imagination is
-            bound to be captured by the style, substance and spirit of these two
-            inspiring and unforgettable nations.
+            Neighbouring China and Burma, physically close yet
+            culturallylightyears apart. This tailor-made itinerary will allow
+            you towitness the evolution of these two rapidly evolving nations,
+            withtheir substantial cultural identities which are becoming
+            moreprominent in the wider world. Contrast the fast paced day to
+            dayactivities of the emerging superpower of China, with the
+            rusticityand peaceful way of life of spiritual Burma. Your
+            imagination isbound to be captured by the style, substance and
+            spirit of these twoinspiring and unforgettable nations.
+          </p>
+          <p>
+            Begin your journey in the thriving capital of Beijing, and be blown
+            away by the majestic style of the Summer Palace and the sheer size
+            of the ancient Great Wall. From Beijing, continue on your adventures
+            to Xi’an and be awed by each individually unique soldier of the
+            7,000 strong Terracotta Army, created around the spirituality of
+            Emperor Qin Shi Huang. End up in the natural beauty surrounds of
+            rural Lijiang, in China’s Yunnan province, for the ultimate
+            indulgence before continuing your journey to Burma. The pace of life
+            is noticeably slower across the border, where you will find a nation
+            full of kindness and devotion. Delve into one of the most
+            substantial and significant archaeological sites in the world,
+            Bagan, the setting of 2,230 ethereal temples and pagodas situated on
+            a 26 square mile plain. Enjoy the style of the distinctive Inle
+            Princess Resort on the shore of the tranquil Lake Inle. Finally,
+            finish with a flourish at the colonial Governor’s Residence in
+            delightful and bustling Yangon.
           </p>
         </section>
         <section class="details">
@@ -162,9 +191,12 @@
               <p>Morning at leisure before afternoon/evening flight home.</p>
             </div>
           </div>
-          <a href="./additional/contact.html">Order</a>
+          <a href="./additional/contact.html"> Click to order</a>
         </section>
       </div>
     </main>
+    <footer>
+      <p>Discovery China Corporation 1995 - 2024</p>
+    </footer>
   </body>
 </html>
