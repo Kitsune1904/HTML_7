@@ -176,3 +176,33 @@ main > form {
   border-radius: 8px;
 }
 
+form > * {
+  color: rgb(36, 20, 0);
+}
+
+main > form > p {
+  font-size: 1.25rem;
+  margin: 5px 0;
+}
+
+form > .holder {
+  display: flex;
+  margin: 2%;
+  width: 90%;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.233);
+}
+
+.holder > label {
+  padding-left: 10px;
+}
+
+.holder > input {
+  border-radius: 8px;
+  padding: 10px;
+  width: 50%;
+  background-color: beige;
+}
+
