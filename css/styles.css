@@ -112,3 +112,30 @@ li a,
   color: #bda87b;
   padding-bottom: 10px;
 }
+
+.info {
+  padding: 10px 0;
+  border-top: 1px solid rgb(230, 230, 230);
+}
+
+.info > p {
+  padding-top: 5px;
+  text-align: justify;
+  color: rgb(124, 124, 124);
+}
+
+.details > a {
+  display: block;
+  justify-content: stretch;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #c7b48c;
+  padding: 10px;
+  color: white;
+}
+
+.img-holder > img {
+  margin-top: 80px;
+  width: 100%;
+}
+
