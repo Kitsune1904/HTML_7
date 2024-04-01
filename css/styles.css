@@ -150,11 +150,7 @@ footer {
 
 main > .regForm, .regForm__button > input {
   background: rgb(251, 210, 63);
-  background: radial-gradient(
-    circle,
-    rgba(251, 210, 63, 1) 0%,
-    rgba(173, 136, 38, 1) 100%
-  );
+  background: radial-gradient(circle,rgba(251, 210, 63, 1) 0%,rgba(173, 136, 38, 1) 100%);
 }
 
 main > .regForm {
@@ -206,11 +202,7 @@ main > .regForm > p {
 .regForm__button > input:hover {
   cursor: pointer;
   background: rgb(190, 152, 14);
-  background: radial-gradient(
-    circle,
-    rgba(190, 152, 14, 1) 0%,
-    rgba(122, 96, 25, 1) 100%
-  );
+  background: radial-gradient(circle,rgba(190, 152, 14, 1) 0%,rgba(122, 96, 25, 1) 100%);
   color: beige;
   transition: 1s;
 }
