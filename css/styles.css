@@ -215,6 +215,6 @@ main > .regForm > p {
   transition: 1s;
 }
 
-.adiition > img {
-  filter: drop-shadow(10px 10px 5px #000000);
+.regForm > img {
+  filter: drop-shadow(10px 10px 10px #000000);
 }
