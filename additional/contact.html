@@ -4,82 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../css/recet.css" />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body class="contact">
     <nav>
       <div class="logo">
-        <a href="../index.html"
-          ><img src="../images/logo-china.png" alt="company logo"
-        /></a>
+        <a href="../index.html"><img src="../images/logo-china.png" alt="company logo" /></a>
       </div>
       <div class="menu-holder">
         <ul class="menu">
           <li><a href="../index.html">Home</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropbtn">More</a>
-            <ul class="dropdown-content">
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">History</a>
-              </li>
-              <li>
-                <a href="#">News</a>
-              </li>
+          <li><a href="./additional/contact.html">Contacts</a></li>
+          <li class="menu__dropdown">
+            <a href="#" class="menu__dropbtn">More</a>
+            <ul class="menu__dropdown-content">
+              <li><a href="#">About</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">News</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </nav>
     <main>
-      <form method="POST" action="https://fom.in.ua/echo">
-        <div class="adiition">
-          <img
-            src="../images/beasts-totem-fotor-bg-remover-20240329143521.png"
-            alt="chinese golden dragon"
-          />
-        </div>
+      <form method="POST" action="https://fom.in.ua/echo" class="regForm">
+        <img src="../images/beasts-totem-fotor-bg-remover-20240329143521.png" alt="chinese golden dragon"/>
         <p>Please compleat form and our consultant will connect with you.</p>
-        <div class="holder">
+        <div class="regForm__holder">
           <label for="fname">First name:</label>
           <input type="text" id="fname" name="fname" placeholder="your name" />
         </div>
-        <div class="holder">
+        <div class="regForm__holder">
           <label for="lname">Last name:</label>
-          <input
-            type="text"
-            id="lname"
-            name="lname"
-            placeholder="your surname"
-          />
+          <input type="text" id="lname" name="lname" placeholder="your surname"/>
         </div>
-        <div class="holder">
+        <div class="regForm__holder">
           <label for="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="youremail@gmail.com"
-          />
+          <input type="email" id="email" name="email" placeholder="youremail@gmail.com"/>
         </div>
-        <div class="holder">
+        <div class="regForm__holder">
           <label for="phone">Phone number:</label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="+120 123 023 021"
-          />
+          <input type="tel" id="phone" name="phone" placeholder="+120 123 023 021"/>
         </div>
-        <div class="button"><input type="submit" value="Submit" /></div>
+        <div class="regForm__button"><input type="submit" value="Submit" /></div>
       </form>
     </main>
     <footer>

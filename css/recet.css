@@ -1,12 +1,9 @@
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, ol, ul, li, article, aside, footer, header, nav {
-	margin: 0;
-	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, footer, header, nav, section {
 	display: block;
 }
@@ -18,10 +15,12 @@ html {
 
 body {
 	line-height: 1;
+	font-size: 1rem;
 }
 
-ol, ul {
+ol, ul, a{
 	list-style: none;
+	text-decoration: none;
 }
 
 * {

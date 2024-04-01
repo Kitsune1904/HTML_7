@@ -10,8 +10,7 @@ nav {
   z-index: 100;
 }
 
-.logo,
-.menu {
+.logo, .menu {
   display: flex;
   align-items: center;
 }
@@ -25,17 +24,11 @@ nav {
   letter-spacing: 2px;
 }
 
-a {
-  text-decoration: none;
-}
-
 .menu {
   display: flex;
 }
 
-li a,
-.dropbtn,
-.dropdown-content > li > a {
+li a, .menu__dropbtn, .menu__dropdown-content > li > a {
   display: block;
   line-height: 55px;
   color: white;
@@ -44,30 +37,28 @@ li a,
   width: 150px;
 }
 
-.menu a:hover,
-.dropdown-content > li > a {
+.menu a:hover, .menu__dropdown-content > li > a {
   background-color: #bda87b;
   transition: 1s;
 }
 
-.dropdown-content > li > a:hover,
-.details > a:hover {
+.menu__dropdown-content > li > a:hover, .discription__details > a:hover {
   background-color: #b99c5c;
   transition: 1s;
 }
 
-.dropdown-content {
+.menu__dropdown-content {
   display: none;
   position: absolute;
 }
 
-.dropdown-content a {
+.menu__dropdown-content a {
   color: white;
   padding: 12px 16px;
   text-align: left;
 }
 
-.dropdown:hover .dropdown-content {
+.menu__dropdown:hover .menu__dropdown-content {
   display: block;
 }
 
@@ -86,20 +77,20 @@ li a,
   border-bottom: 1px solid rgb(230, 230, 230);
 }
 
-.intro p {
+.discription__intro p {
   text-align: justify;
 }
 
-.intro p:last-child {
+.discription__intro p:last-child {
   margin-top: 10px;
 }
 
-.info-holder {
+.discription__details-holder {
   border: 3px solid #c7b48c;
   padding: 3%;
 }
 
-.info-holder > span {
+.discription__details-holder > span {
   display: block;
   font-size: 1.25rem;
   color: #bda87b;
@@ -117,7 +108,7 @@ li a,
   color: rgb(124, 124, 124);
 }
 
-.details > a {
+.discription__details > a {
   display: block;
   justify-content: stretch;
   text-align: center;
@@ -127,7 +118,7 @@ li a,
   color: white;
 }
 
-.img-holder > img {
+.background > img {
   margin-top: 80px;
   width: 100%;
 }
@@ -157,8 +148,7 @@ footer {
   height: 100vh;
 }
 
-main > form,
-.button > input {
+main > .regForm, .regForm__button > input {
   background: rgb(251, 210, 63);
   background: radial-gradient(
     circle,
@@ -167,7 +157,7 @@ main > form,
   );
 }
 
-main > form {
+main > .regForm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,16 +167,16 @@ main > form {
   border-radius: 8px;
 }
 
-form > * {
+.regForm > * {
   color: rgb(36, 20, 0);
 }
 
-main > form > p {
+main > .regForm > p {
   font-size: 1.25rem;
   margin: 5px 0;
 }
 
-form > .holder {
+.regForm > .regForm__holder {
   display: flex;
   margin: 2%;
   width: 90%;
@@ -196,24 +186,24 @@ form > .holder {
   background-color: rgba(255, 255, 255, 0.233);
 }
 
-.holder > label {
+.regForm__holder > label {
   padding-left: 10px;
 }
 
-.holder > input {
+.regForm__holder > input {
   border-radius: 8px;
   padding: 10px;
   width: 50%;
   background-color: beige;
 }
 
-.button > input {
+.regForm__button > input {
   padding: 10px 50px;
   border-radius: 8px;
   font-size: 1.1rem;
 }
 
-.button > input:hover {
+.regForm__button > input:hover {
   cursor: pointer;
   background: rgb(190, 152, 14);
   background: radial-gradient(
